@@ -1,5 +1,5 @@
 <?php
 
-function arrowtrade_preprocess_html(&$variables) {
-  $variables['attributes']['class'][] = 'arrowtrade';
+function magazine_preprocess_html(&$variables) {
+  $variables['attributes']['class'][] = 'magazine-theme';
 }

@@ -1,12 +1,12 @@
-name: Arrowtrade
+name: Magazine
 type: theme
-description: Theme for Arrowtrade.
+description: Theme for magazine websites.
 base theme: bartik
 core: 8.x
 
 libraries:
   - core/normalize
-  - arrowtrade/global-styling
+  - magazine/global-styling
 
 regions:
   header: Header
