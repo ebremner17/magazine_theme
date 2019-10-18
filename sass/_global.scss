@@ -1,0 +1,23 @@
+.visually-hidden {
+  display: none;
+}
+
+body.arrowtrade {
+  background-color: white;
+
+  .layout-container {
+    max-width: 100%;
+  }
+}
+
+.arrowtrade {
+  .block .content,
+  .node__content  {
+    margin-top: 0;
+  }
+
+  img {
+    padding: 0;
+    margin: 0;
+  }
+}

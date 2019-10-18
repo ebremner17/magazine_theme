@@ -1,0 +1,19 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/magazine.css: {}
+slideshow:
+  version: 1.x
+  css:
+    theme:
+      slick/slick.css: {}
+  js:
+    slick/slick.min.js: {}
+    js/slideshow.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

@@ -1,0 +1,64 @@
+.at-people {
+  max-width: 63rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  &--name,
+  &--job-title {
+    text-transform: uppercase;
+    font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &--headshot {
+    text-align: center;
+  }
+
+  &--bio {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.view-at-view-people {
+  max-width: 63rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  .view-content {
+    width: 100%;
+
+    @include large {
+      display: inline-block;
+    }
+
+    .at-people--person {
+      padding: 0 1rem;
+
+      @include large {
+        padding: 0 0.5rem;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      @include large {
+        width: 45%;
+      }
+    }
+
+    .views-field-title,
+    .views-field-field-at-people-job-title {
+      text-transform: uppercase;
+      font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .views-field-field-at-people-image {
+      text-align: center;
+    }
+  }
+}

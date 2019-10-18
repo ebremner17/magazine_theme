@@ -1,0 +1,47 @@
+.view-at-view-back-issues-linked {
+  max-width: 62rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  .view-content {
+    display: grid;
+    grid-template-columns: 100%;
+
+    @include large {
+      grid-template-columns: 50% 50%;
+    }
+
+    .at-issue--wrapper {
+      max-width: 100%;
+      grid-template-columns: none;
+    }
+
+    img {
+      text-align: center;
+    }
+  }
+
+  .pager {
+
+    ul li {
+
+      :hover {
+        background-color: #e5e5e5;
+        color: red;
+      }
+    }
+
+    a {
+      background-color: #787878;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 0.5rem 1rem;
+
+      :hover {
+        background-color: #e5e5e5;
+        color: #F6452C;
+      }
+    }
+  }
+}

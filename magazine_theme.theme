@@ -1,0 +1,5 @@
+<?php
+
+function arrowtrade_preprocess_html(&$variables) {
+  $variables['attributes']['class'][] = 'arrowtrade';
+}

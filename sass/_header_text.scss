@@ -1,0 +1,21 @@
+.block-entity-browser-blockat-ebr-header-text {
+  background-color: #e5e5e5;
+}
+
+.at-header-text {
+  &--wrapper {
+    max-width: 63rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h2 {
+    padding: 1rem;
+    margin: 0;
+    font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+  }
+}

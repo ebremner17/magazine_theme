@@ -1,0 +1,80 @@
+.at-issue {
+
+  &--wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    position: relative;
+
+    @include large {
+      max-width: 63rem;
+      grid-template-columns: 30% 70%;
+    }
+  }
+
+  &--cover {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    a {
+      display: block;
+      text-align: center;
+    }
+
+    img {
+      -moz-box-shadow:    3px 3px 5px 6px #ccc;
+      -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+      box-shadow:         -3px 3px 5px 6px #ccc;
+    }
+  }
+
+  &--description {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    @include large {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+
+  &--read-issue,
+  &--back-issue-link {
+    padding: 0.5rem;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      background: #787878;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.60181rem;
+      font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+      letter-spacing: .045rem;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #e5e5e5;
+        color: #F6452C;
+      }
+    }
+  }
+
+  &--back-issue-link {
+    padding-top: 2rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+}

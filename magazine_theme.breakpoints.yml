@@ -1,0 +1,16 @@
+# Breakpoints - change based on site need
+arrowtrade.xsmall:
+  label: Extra Small
+  mediaQuery: 'all and (min-width: 20em)'
+arrowtrade.small:
+  label: Small
+  mediaQuery: 'all and (min-width: 30em)'
+arrowtrade.medium:
+  label: Medium
+  mediaQuery: 'all and (min-width: 48em)'
+arrowtrade.large:
+  label: Large
+  mediaQuery: 'all and (min-width: 64em)'
+arrowtrade.xlarge:
+  label: Extra large
+  mediaQuery: 'all and (min-width: 80em)'

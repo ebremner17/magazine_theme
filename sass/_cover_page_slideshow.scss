@@ -1,0 +1,80 @@
+.view-at-view-cover-page-slideshow {
+
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url("../images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0;
+
+  -webkit-transition: background-image 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -moz-transition: background-image 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out, opacity 0.2s ease-in-out;
+
+  button {
+    outline: none;
+  }
+
+  .view-content {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    -moz-box-shadow:    inset 0 0 40px #000000;
+    -webkit-box-shadow: inset 0 0 40px #000000;
+    box-shadow:         inset 0 0 40px #000000;
+    border-bottom: 1px solid white;
+  }
+
+  .cover-page-issue {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: .5rem;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 5px solid orange;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: 35%;
+    border: 0;
+    background: transparent;
+    height: 80px;
+    color: transparent;
+
+    a:hover {
+      outline: none;
+    }
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  .slick-prev:before {
+    content: "<";
+    padding: 0 10px;
+    color: orange;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    left: 20%;
+  }
+
+  .slick-next:before {
+    content: ">";
+    padding: 0 10px;
+    color: orange;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    right: 20%;
+  }
+}
