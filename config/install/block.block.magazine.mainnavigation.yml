@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - we_megamenu
+  theme:
+    - magazine_theme
+id: magazine.mainnavigation
+theme: magazine_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
+  label_display: '0'
+visibility: {  }
