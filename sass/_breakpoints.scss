@@ -3,7 +3,8 @@ $small: 25em;
 $medium: 30em;
 $large: 49.81em;
 $xl: 63.19em;
-$max-width: $xl;
+$xlw: 80em;
+$max-width: $xlw;
 
 /// Mixin - xs Breakpoint
 /// Allows easier @include xs {} syntax
@@ -37,6 +38,13 @@ $max-width: $xl;
 /// Allows easier @include xl {} syntax
 @mixin xl {
   @include breakpoint($xl) {
+    @content;
+  }
+}
+/// Mixin - xlw Breakpoint
+/// Allows easier @include xlw {} syntax
+@mixin xlw {
+  @include breakpoint($xlw) {
     @content;
   }
 }

@@ -1,0 +1,29 @@
+.contained-width {
+  .field--name-field-mag-caption {
+    p {
+      padding: 1rem 0.5rem;
+    }
+  }
+}
+
+.field--name-field-mag-caption {
+
+  p {
+    @include magazine-container;
+    text-align: left;
+    color: white;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+
+    @include large {
+      font-size: 1rem;
+    }
+  }
+
+  background-color: $dark-grey;
+  clear: both;
+  display: block;
+  width: 100%;
+}

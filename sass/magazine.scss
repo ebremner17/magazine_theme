@@ -1,6 +1,9 @@
 @import "node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "variables";
 @import "breakpoints";
+@import "colours";
 @import "global";
+@import "layout";
 @import "header";
 @import "admin";
 @import "cover_page_slideshow";
@@ -15,3 +18,5 @@
 @import 'buttons';
 @import 'header_text';
 @import 'back_issues';
+@import 'images';
+@import 'caption';

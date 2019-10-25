@@ -6,7 +6,7 @@ core: 8.x
 
 libraries:
   - core/normalize
-  - magazine/global-styling
+  - magazine_theme/global-styling
 
 regions:
   header: Header

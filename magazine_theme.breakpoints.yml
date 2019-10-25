@@ -13,4 +13,7 @@ magazine.large:
   mediaQuery: 'all and (min-width: 64em)'
 magazine.xlarge:
   label: Extra large
+  mediaQuery: 'all and (min-width: 72em)'
+magazine.xlargewide:
+  label: Extra large wide
   mediaQuery: 'all and (min-width: 80em)'
